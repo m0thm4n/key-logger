@@ -1,0 +1,12 @@
+D:\workspace\keylogger\KeyLogger\KeyLogger\obj\Debug\KeyLogger.csprojAssemblyReference.cache
+D:\workspace\keylogger\KeyLogger\KeyLogger\bin\Debug\KeyLogger.exe.config
+D:\workspace\keylogger\KeyLogger\KeyLogger\bin\Debug\KeyLogger.exe
+D:\workspace\keylogger\KeyLogger\KeyLogger\bin\Debug\KeyLogger.pdb
+D:\workspace\keylogger\KeyLogger\KeyLogger\obj\Debug\KeyLogger.exe
+D:\workspace\keylogger\KeyLogger\KeyLogger\obj\Debug\KeyLogger.pdb
+D:\workspace\keylogger\KeyLogger\bin\Debug\KeyLogger.exe.config
+D:\workspace\keylogger\KeyLogger\bin\Debug\KeyLogger.exe
+D:\workspace\keylogger\KeyLogger\bin\Debug\KeyLogger.pdb
+D:\workspace\keylogger\KeyLogger\obj\Debug\KeyLogger.csprojAssemblyReference.cache
+D:\workspace\keylogger\KeyLogger\obj\Debug\KeyLogger.exe
+D:\workspace\keylogger\KeyLogger\obj\Debug\KeyLogger.pdb
